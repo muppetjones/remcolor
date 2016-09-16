@@ -1,0 +1,11 @@
+Package: remcolor
+Title: Defines color-blind friendly palettes and gradients.
+Version: 0.0.0.9000
+Authors@R: c(person("Stephen J", "Bush", role=c("aut", "cre"),
+                    email="muppetjones@gmail.com"))
+Description: Provides several color gradients and color palettes
+Depends:
+    R (>= 3.2.0)
+License: GNU GENERAL PUBLIC LICENSE
+LazyData: true
+RoxygenNote: 5.0.1
