@@ -7,13 +7,14 @@
 gradient.focus(highlight = "red")
 }
 \arguments{
-\item{highlight}{The color to use as a highlight. Default is "red". Options are "green" or "blue".}
+\item{highlight}{The color to use as a highlight.
+Default is "red". Options are "green" or "blue".}
 }
 \description{
 This function returns a black to white gradient with a highlight
 }
 \examples{
-gradient.focus(highlight="red")
+gradient.focus(highlight = "red")
 }
 \keyword{colors}
 \keyword{palette}

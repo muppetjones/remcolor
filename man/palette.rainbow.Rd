@@ -7,7 +7,7 @@
 palette.rainbow(n.colors = 12)
 }
 \arguments{
-\item{n.colors}{The number of colors in the palette. Default=12. Options={6,8,10,12,14,15,18,21}}
+\item{n.colors}{The number of colors in the palette. Default = 12. Options = {6, 8, 10, 12, 14, 15, 18, 21}}
 }
 \description{
 This function creates a color blind-friendly, rainbow palette

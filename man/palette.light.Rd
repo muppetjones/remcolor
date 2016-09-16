@@ -7,7 +7,7 @@
 palette.light(n.colors = 12)
 }
 \arguments{
-\item{n.colors}{The number of colors in the palette. Default=12. Options={6,8,10}}
+\item{n.colors}{The number of colors in the palette. Default = 12. Options = {6, 8, 10}}
 }
 \description{
 This function creates a color blind-friendly, rainbow palette

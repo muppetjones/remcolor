@@ -6,6 +6,9 @@ Authors@R: c(person("Stephen J", "Bush", role=c("aut", "cre"),
 Description: Provides several color gradients and color palettes
 Depends:
     R (>= 3.2.0)
+Imports:
+    ggplot2,
+    pracma
 License: GNU GENERAL PUBLIC LICENSE
 LazyData: true
 RoxygenNote: 5.0.1
