@@ -117,7 +117,7 @@ plot_palettes <- function(col_list, border = NA, ...){
     }
 
     col.vec <- sapply(col.vec, as.numeric)
-    print(matrix(col.vec, ncol = n_col * 3, nrow = n_row))
+    # print(matrix(col.vec, ncol = n_col * 3, nrow = n_row))
 
     column.names <- rep(paste("color", seq(n_col), sep = ""))
     col.x <- rep(seq(n_row), n_col)
@@ -135,8 +135,8 @@ plot_palettes <- function(col_list, border = NA, ...){
     colnames(col.df) <- c("x", "intensity", "color", "channel")
     col.df$channel <- factor(col.df$channel, c("R", "G", "B"))
     # col.df$intensity <- as.numeric(col.df$intensity)
-    col.df
-    print(col.df)
+    # col.df
+    # print(col.df)
 
     g <- ggplot(col.df,
         aes(x = x, y = intensity,
