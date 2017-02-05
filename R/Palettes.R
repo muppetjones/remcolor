@@ -37,7 +37,7 @@ palette.rainbow <- function(n.colors = 12) {
         "12" = c(
             "#781c81", "#BF864D", "#BFBF4D", "#86BF4D", "#4DBF4D", "#4DBF86",
             "#4DBFBF", "#4D86BF", "#4D4DBF", "#864DBF", "#BF4DBF", "#d92120"),
-        "13" = c(palette.rainbow(12), gradient.smooth.black(4)[2]),
+        "13" = c(palette.rainbow(12), gradient.black(4)[2]),
         "14" = c(
             "#882E72", "#B178A6", "#D6C1DE", "#1965B0", "#5289C7", "#7BAFDE",
             "#4EB265", "#90C987", "#CAE0AB", "#F7EE55", "#F6C141", "#F1932D",
@@ -46,14 +46,14 @@ palette.rainbow <- function(n.colors = 12) {
             "#114477", "#4477AA", "#77AADD", "#117755", "#44AA88", "#99CCBB",
             "#777711", "#AAAA44", "#DDDD77", "#771111", "#AA4444", "#DD7777",
             "#771144", "#AA4477", "#DD77AA"),
-        "16" = c(palette.rainbow(15), gradient.smooth.black(4)[2]),
-        "17" = c(palette.rainbow(15), gradient.smooth.black(4)[2:3]),
+        "16" = c(palette.rainbow(15), gradient.black(4)[2]),
+        "17" = c(palette.rainbow(15), gradient.black(4)[2:3]),
         "18" = c(
             "#771155", "#AA4488", "#CC99BB", "#114477", "#4477AA", "#77AADD",
             "#117777", "#44AAAA", "#77CCCC", "#777711", "#AAAA44", "#DDDD77",
             "#774411", "#AA7744", "#DDAA77", "#771122", "#AA4455", "#DD7788"),
-        "19" = c(palette.rainbow(18), gradient.smooth.black(4)[2]),
-        "20" = c(palette.rainbow(18), gradient.smooth.black(4)[2:3]),
+        "19" = c(palette.rainbow(18), gradient.black(4)[2]),
+        "20" = c(palette.rainbow(18), gradient.black(4)[2:3]),
         "21" = c(
             "#771155", "#AA4488", "#CC99BB", "#114477", "#4477AA", "#77AADD",
             "#117777", "#44AAAA", "#77CCCC", "#117744", "#44AA77", "#88CCAA",
